@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12904" started-at="2019-02-28T08:26:57Z" finished-at="2019-02-28T08:27:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12904" started-at="2019-02-28T08:26:57Z" finished-at="2019-02-28T08:27:10Z">
+      <class name="PC_Pay_point_DEL.PC_Pay_point_DEL.AppTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PC_Pay_point_DEL.PC_Pay_point_DEL.AppTest@239963d8]" name="setup" is-config="true" duration-ms="7060" started-at="2019-02-28T08:26:57Z" finished-at="2019-02-28T08:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:PC_Pay_point_DEL.PC_Pay_point_DEL.AppTest@239963d8]" name="test" duration-ms="5810" started-at="2019-02-28T08:27:04Z" finished-at="2019-02-28T08:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="end()[pri:0, instance:PC_Pay_point_DEL.PC_Pay_point_DEL.AppTest@239963d8]" name="end" is-config="true" duration-ms="0" started-at="2019-02-28T08:27:10Z" finished-at="2019-02-28T08:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- PC_Pay_point_DEL.PC_Pay_point_DEL.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

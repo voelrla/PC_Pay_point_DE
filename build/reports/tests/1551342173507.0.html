@@ -1,0 +1,1826 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+
+    <title>특가대표! 위메프</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://view-qa.wemakeprice.com/wmp-favicon/49/201803/28/fvc_fwcrbvxscvej.ico" />
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NZ2HDSX"></script><script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/jquery.sha1.js?v=1"></script>
+    <script src="//s-qa.wemep.co.kr/front/assets/js/provide-resource.js?ver=1"></script>
+    <!-- jQuery.base64 SCRIPT -->
+    <script type="text/javascript" src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/jquery.base64.js?v=1"></script>
+
+    <link rel="stylesheet" href="//s-qa.wemep.co.kr/ui/latest/dist/pc/css/common/common.css?ver=20190227151618" />
+    <link rel="stylesheet" href="//s-qa.wemep.co.kr/ui/latest/dist/pc/css/common/layout.css?ver=20190227151618" />
+    <link rel="stylesheet" href="//s-qa.wemep.co.kr/ui/latest/dist/pc/css/pages/order.css?ver=20190227151618" />
+    <link rel="stylesheet" href="//s-qa.wemep.co.kr/ui/latest/dist/pc/css/pages/mix_common.css?ver=20190227151618" />
+
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/jquery-ui.min.js?ver=1"></script>
+    <!-- dialog 관련 (마크업제공) -->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/util/commonAjax.js?v=20190227151618"></script>
+    <!-- 주문서 공통 관련 -->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/common/const.js?v=20190227151618"></script>
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/order/orderCommon.js?v=20190227151618"></script>
+    <!-- 주문서 공통 관련 -->
+    <!-- 배송지 관련 -->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/order/orderDlv.js?v=20190227151618"></script>
+    <!-- 장바구니 쿠폰 관련 -->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/order/cartCouponDiscount.js?v=20190227151618"></script>
+    <!-- 주문서 결제하기 관련 -->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/order/orderPayment.js?v=20190227151618"></script>
+    <!-- 주문서 포인트 관련 -->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/order/orderPoint.js?v=20190227151618"></script>
+    <!-- 주문서 결제정보 관련 -->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/order/orderSubmit.js?v=20190227151618"></script>
+    <!-- 주문공통 관련 -->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/util/orderUtil.js?v=20190227151618"></script>
+    <!-- 주문서 페이지 Script-->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/order/orderSheet.js?v=20190227151618"></script>
+    <!-- 주문서 페이지 Script-->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/pg/pgCommon.js?v=20190227151618"></script>
+    <!--주문서Script -->
+    <!--주문서 결제 관련 Script -->
+    <script src="//s-qa.wemep.co.kr/escrow-pc/latest/static/js/order/paymentForm.js?v=20190227151618"></script>
+    <!--주문서 결제 관련 Script -->
+    <style>
+        .ui-dialog.pg-dialog {
+            padding: 0 !important;
+        }
+        .ui-widget-custom-overlay {
+            background: "" !important;
+            opacity: 0 !important;
+        }
+        #kcp_popMask {
+            opacity: 0 !important;
+        }
+    </style>
+</head>
+<body>
+<div id="ui-loading-widget" class="ui-widget-overlay" style="z-index:1001;display:none"></div>
+<div id="ui-loading-img" class="ui-dialog view_middle" style="z-index:1002;display:none">
+    <div id="loading" class="ui-dialog-content ui-widget-content">
+        <div class="loading_bar">
+            <div>
+                <span class="load_gif">
+                    <img src="https://image.wemakeprice.com/images/resources_v2/front/common/loading_pc.gif" alt="" />
+                </span>
+            </div>
+            <img src="https://image.wemakeprice.com/images/resources_v2/front/common/loading_pc_logo_d.png" alt="특가대표 위메프" />
+        </div>
+    </div>
+</div>
+<div id="wrap" class="wrap">
+    <!-- Header 영역 -->
+    <div class="header_wrap fusion-order"><!-- fusion class 추가 -->
+        <a href="http://test.wemakeprice.com"><img src="//image.wemakeprice.com/images/resources_v2/front/layout/logo.png" alt="" /></a>
+    </div>
+    <!-- //Header 영역 -->
+    <div class="container order fusion-order">
+        <form name="orderForm" id="orderForm" style="margin:0;padding:0;height: auto">
+            <div class="container_inner">
+                <!-- 컨텐츠 영역 -->
+                <div class="contents_wrap">
+                    <div class="content_wide">
+                        <!-- 페이지 타이틀 영역 -->
+                        <div class="order_header">
+                            <div class="order_title">
+                                <h3 class="tit odr_head">주문/결제</h3>
+                                <div class="order_process">
+                                    <ul>
+                                        <li class="cart"><span class="blind">현재위치 : 장바구니</span></li>
+                                        <li class="order on"><span class="blind">주문/결제</span></li>
+                                        <li class="order_cplt"><span class="blind">주문완료</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- 기본 컨텐츠 영역 -->
+                    <div class="content_main">
+                        <div class="order_wrap">
+                            <!--배송정보 - 회원, 받는사람 정보 - 비회원 동일 사용 -->
+                            <input type="hidden" name="cartPathNo" id="cartPathNo" value="32294" />
+<input type="hidden" name="nonmemberOrderYn" id="nonmemberOrderYn" value="N" />        
+<input type="hidden" id="certicate" name="certicate" value="true" readonly="readonly" />
+<input type="hidden" id="adultLimitYn" name="adultLimitYn" value="N" readonly="readonly" />
+<input type="hidden" id="localLiquorYn" name="localLiquorYn" value="N" readonly="readonly" />
+<input type="hidden" name="businessMember" id="businessMember" value="N" />      
+<input type="hidden" name="baseReceiveName" id="baseReceiveName" value="이승재" />
+
+<input type="hidden" name="baseMobile1" id="baseMobile1" value="" />
+<input type="hidden" name="baseMobile2" id="baseMobile2" value="" />
+<input type="hidden" name="baseMobile3" id="baseMobile3" value="" />
+
+<input type="hidden" name="baseZipCode" id="baseZipCode" value="06173" />
+<input type="hidden" name="baseAddr1" id="baseAddr1" value="서울특별시 강남구 삼성동 168-6" />
+<input type="hidden" name="baseAddr2" id="baseAddr2" value="위메프⚽️⚾️" />
+<input type="hidden" name="baseRoadAddrTxt" id="baseRoadAddrTxt" value="서울특별시 강남구 영동대로 502" />
+<input type="hidden" name="baseRoadAddr1" id="baseRoadAddr1" value="서울특별시 강남구 영동대로 502" />
+<input type="hidden" name="baseRoadAddr2" id="baseRoadAddr2" value="위메프⚽️⚾️" />
+<input type="hidden" name="personalOverseaFlag" id="personalOverseaFlag" value="false" />
+
+<input type="hidden" id="roadAddr1" name="roadAddr1" value="서울특별시 강남구 영동대로 502" readonly="readonly" />
+<input type="hidden" name="buyerEmail2" id="buyerEmail2" value="" />
+<input type="hidden" id="shipMsgCd" name="shipMsgCd" value="" />
+<input type="hidden" id="shipMsg" name="shipMsg" value="" />
+
+
+
+
+    
+        <div class="order_info member">
+            <h4 class="tit shipps_info">배송 정보</h4>
+    
+
+    
+
+    <table class="table_info type1">
+
+        
+            <caption>배송 정보</caption>
+        
+        <tbody>
+
+        
+            <tr>
+                <th>주문자</th>
+                <td>
+                    <div class="info_order_user">
+                        <span>
+                            <input type="hidden" name="purchaseName" id="purchaseName" value="이승재" />
+                            <em>이승재</em>
+                            <span class="desc">(보내시는 분  <em id="senderNmGubun"></em> <em id="senderNm"></em>
+                                <span class="tooltip">
+                                    <span class="tooltip_text">
+                                        <a id="modifySenderNm" class="btn_link" href="javascript:void(0)" onclick="ordDlv.modifySenderName();">입력</a>
+                                        <span class="i_over">
+                                            <span class="ico">?</span>
+                                            <span class="layer left">
+                                                <i class="ico_arr"></i>
+                                                택배송장에 단체/회사이름으로<br />보내시는분을 표시할 수 있습니다.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span>
+                            )</span>
+                        </span>
+                        <span class="bar">|</span>
+                        <!--본인인증시-->
+                        <span>-</span>
+                        <!--본인 미 인증시-->
+                        <!--<span>-</span>-->
+                        <span class="bar">|</span>
+                        <span id="memberEmail">wmtest04@yopmail.com</span>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- 본인인증 및 사업자 회원은 비노출 시작-->
+            
+            <!-- 본인인증2 및 사업자 회원은 비노출 종료-->
+            <tr>
+                <th>배송지선택</th>
+                <td>
+                    <ul class="btn_tab" id="dlvShipAddr">
+                        <li id="baseAddr" class="on"><a href="#" onclick="ordDlv.baseAddr();"><span class="left_rnd"></span><em>기본배송지</em></a></li>
+                        <li id="newAddr"><a href="#" onclick="javascript:ordDlv.newAddr();"><em>신규배송지</em></a></li>
+                        <li id="dlvAddr"><a href="#" onclick="javascript:ordDlv.dlvAddr();"><span class="right_rnd"></span><em>배송지목록</em></a></li>
+                    </ul>
+                </td>
+            </tr>
+        
+
+        <tr>
+            <th class="info">이름</th>
+            <td>
+                <div class="info_deliver">
+                    <span class="input_area">
+
+                        <input type="text" id="receiveName" class="inpt_default" value="이승재" maxlength="20" />
+                    </span>
+                </div>
+            </td>
+        </tr>
+        <tr class="bd_none">
+            <th class="info">연락처</th>
+            <td>
+                <div class="info_deliver phone">
+                    <span class="input_area">
+                        <div class="selbox_comm">
+                        <a class="btn_option ico" name="mobile1" id="mobile1">010</a>
+                            <ul class="list_option" id="mobileIdentifyNumberSelect">
+                                
+                                    <li><a data-value="010">010</a></li>
+                                
+                                    <li><a data-value="011">011</a></li>
+                                
+                                    <li><a data-value="016">016</a></li>
+                                
+                                    <li><a data-value="017">017</a></li>
+                                
+                                    <li><a data-value="018">018</a></li>
+                                
+                                    <li><a data-value="019">019</a></li>
+                                
+                            </ul>
+                        </div>
+                    </span>
+                    <span class="input_txt">-</span>
+                    <span class="input_area phone1">
+                        <input type="text" name="mobile2" id="mobile2" class="inpt_default" value="" maxlength="4" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                    </span>
+                    <span class="input_txt">-</span>
+                    <span class="input_area phone2">
+                        <input type="text" name="mobile3" id="mobile3" class="inpt_default" value="" maxlength="4" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                    </span>
+                    
+                    <span class="checkbox_area">
+                        <input type="checkbox" class="blind" name="safetyUseYn" id="safetyUseYn" onclick="ordDlv.saftyMsgDisplay(this)" />
+                        <label for="safetyUseYn" class="chk_box"><span class="ico"></span>안심번호 서비스 사용</label>
+                    </span>
+
+                    <div class="tooltip_btn">
+                        <a class="ico q_mark_m">클릭영역</a>
+                        <div class="txt_tooltip">
+                            <strong>안심번호 서비스 안내</strong>
+                            <div class="wrap_cont">
+                                <span>고객님의 개인정보보호를 위해 상품 주문 시<br />연락처 정보가 유출되지 않도록 1회성 임시번호를 발급해드리는 서비스입니다.</span>
+                                <ul class="list_type">
+                                    <li>판매사와 택배사에 실제 고객님의 정보 대신 안심
+                                        번호가 제공되므로, 개인정보가 유출되는 것을
+                                        사전에 차단할 수 있습니다.</li>
+                                    <li>발급된 안심번호는 일정기간 이후 자동으로 해지됩니다.</li>
+                                    <li>안심번호 발급 이후라도 배송/반품 등의 원활한 서비스 제공을 위해 실제 연락처가 제공될 수 있습니다.</li>
+                                    <li>발급된 안심번호는 결제완료 이후, 마이페이지에서 확인하실 수 있습니다.</li>
+                                    <li>안심번호 서비스는 SK텔링크에 위탁하여 <em>무료</em>로
+                                        제공해 드립니다.</li>
+                                </ul>
+                            </div>
+                            <a class="ico close">툴팁 닫기</a>
+                            <span class="ico_comm ico_arr"></span>
+                        </div>
+                    </div>
+                    <p class="notice_txt saftyMsg" style="display:none">개인정보보호를 위해 안심번호로 자동 전환되어 배송됩니다.</p>
+                </div>
+               
+            </td>
+        </tr>
+        <tr class="bd_none">
+            <th>주소</th>
+            <td>
+                <div class="info_deliver">
+                    <div class="addr_zip">
+                        <span class="input_area">
+                            <input type="text" name="zipCode" id="zipCode" class="inpt_default disabled" value="06173" disabled="" />
+                        </span>
+                        <!--<a href="javascript:void(0)" class="btn_sys sml_m btn_zip" data-potemplateages/views/order/dim_pop_zipcode_1.html .layer_wrap"><span>우편번호찾기</span></a>-->
+                        <!--<a href="javascript:open_zipcode('selectAddr_v2')" class="btn_sys sml_m" ><span>우편번호찾기</span></a>-->
+                        <a href="javascript:ordDlv.open_zipcode()" class="btn_sys mid_d btn_zip"><span>우편번호찾기</span></a>
+                        
+                            <!-- 20171220 추가 -->
+                            <span class="checkbox_area">
+                            <input type="checkbox" class="blind" name="baseAddrRegYn" id="baseAddrRegYn" />
+                            <label for="baseAddrRegYn" class="chk_box"><span class="ico"></span>기본배송지로 저장</label>
+                        </span>
+                        
+
+                    </div>
+                    <div class="addr_detail">
+                        <span class="input_area detail1">
+                            <input type="text" name="addr1" id="addr1" class="inpt_default disabled" value="서울특별시 강남구 삼성동 168-6" disabled="" />
+                        </span>
+                        <span class="input_area detail2">
+                            <input type="text" name="addr2" id="addr2" class="inpt_default" value="위메프⚽️⚾️" maxlength="100" />
+                        </span>
+                        <!-- todo 도로명주소 존재 유무에 따라서 display 설정해야함..-->
+                        <div id="way_name" style="display:block">
+                            <p class="street"><em class="btn_color road_name">도로명</em>
+                            <span id="roadAddr1Txt">서울특별시 강남구 영동대로 502</span> <span id="roadAddr2">위메프⚽️⚾️</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr class="bd_none">
+            <th class="info">배송시 요청사항</th>
+            <td>
+                <div class="info_deliver">
+                    <div class="selbox_comm">
+                        <a class="btn_option ico" id="shipMsgDisplay">배송시 요청사항 선택</a>
+                        <ul class="list_option" id="selectShipMsg">
+                            <li><a data-shipmsgcd="none" data-shipmsg="배송시 요청사항 선택">배송시 요청사항 선택</a></li><!-- default -->
+                            
+                            <li><a data-shipmsgcd="SHIP01" data-shipmsg="부재시 경비실에 맡겨주세요.">부재시 경비실에 맡겨주세요.</a></li>
+                            
+                            <li><a data-shipmsgcd="SHIP02" data-shipmsg="부재시 휴대폰으로 연락바랍니다.">부재시 휴대폰으로 연락바랍니다.</a></li>
+                            
+                            <li><a data-shipmsgcd="SHIP03" data-shipmsg="집 앞에 놓아주세요.">집 앞에 놓아주세요.</a></li>
+                            
+                            <li><a data-shipmsgcd="SHIP04" data-shipmsg="택배함에 넣어주세요.">택배함에 넣어주세요.</a></li>
+                            
+                            <li><a data-shipmsgcd="SHIP00" data-shipmsg="직접 입력">직접 입력</a></li>
+                            
+                        </ul>
+                    </div>
+                    <!--직접입력 선택시 노출-->
+                    <span class="input_area deliver_msg" id="directShipMsgDisplay" style="display:none">
+                        <label for="directShipMsg" class="lbl_type">배송 시, 참고사항 입력</label>
+                        <input type="text" id="directShipMsg" class="inpt_default" value="" maxlength="50" />
+                    </span>
+                    <span class="byte" style="display:none">(00/50자)</span>
+                    <!--// 직접입력 선택시 노출-->
+                </div>
+            </td>
+        </tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+                            <!--//배송정보 - 회원, 받는사람 정보 - 비회원 동일 사용 -->
+
+                            <!-- 주문상품 정보 -->
+                            
+    <!-- 주문상품 정보 - 회원 -->
+    <div class="order_prd">
+        <h4 class="tit odr_pdct_info">주문상품 정보</h4>
+        <table class="table_info type2">
+            <caption>장바구니 상품목록</caption>
+            <thead>
+            <tr>
+                <th>상품정보/수량</th>
+                <th>상품금액</th>
+                <th>할인금액</th>
+                <th>할인적용금액</th>
+                <th>배송비</th>
+            </tr>
+            </thead>
+            <tbody>
+            
+                <!-- 장바구니 상품 노출 시작 -->
+                
+                    <tr>
+                        <td class="td_info">
+
+                            <div class="basic_type">
+                                <span class="thum"><img src="https://view-qa.wemakeprice.com/wmp-product/4/542/100055424/pm_iq9wzevavqnm_thumbnail.jpg?1548902372" width="70" height="70" alt="" /></span>
+                                <div class="prd_info">
+                                    <div class="title">QA이승재 - wapi</div>
+                                    <!--상품정보-->
+                                    <input type="hidden" name="prodNo" id="prodNo100055424" value="100055424" />
+                                    <input type="hidden" name="prodNm" id="prodNm100055424" value="QA이승재 - wapi" />
+                                    <input type="hidden" name="lcateCd" id="lcateCd100055424" value="1000000" />
+                                    <input type="hidden" name="mcateCd" id="mcateCd100055424" value="2000004" />
+                                    <input type="hidden" name="scateCd" id="scateCd100055424" value="3000084" />
+                                    <input type="hidden" name="dcateCd" id="dcateCd100055424" value="4000352" />
+                                    <input type="hidden" name="salePrice" id="salePrice100055424" value="1000" />
+                                    <input type="hidden" name="salePriceQty" id="salePriceQty100055424" value="1" />
+                                    <input type="hidden" name="shipPolicyNo" id="shipPolicyNo100055424" value="572" />
+                                    <input type="hidden" name="shipFee" id="shipFee100055424" value="0" />
+                                    <input type="hidden" name="shipType" id="shipType100055424" value="FREE" />
+                                    <input type="hidden" name="freeCondition" id="freeCondition100055424" value="0" />
+                                    <input type="hidden" name="bundleKind" id="bundleKind100055424" value="PRD" />
+                                    <input type="hidden" name="partnerId" id="partnerId100055424" value="voelrla" />
+                                    <!-- 차등수량부과 관련 -->
+                                    <input type="hidden" name="diffYn" id="diffYn100055424" value="N" />
+                                    <input type="hidden" name="diffCount" id="diffCount100055424" value="0" />
+                                    <!-- 묶음배송 합산 상품가격-->
+                                    <input type="hidden" name="shipSalePrice" id="shipSalePrice100055424" value="1000" />
+                                    <!-- 상품금액 (상품판매가 * 수량)-->
+                                    <input type="hidden" name="prodSalePrice100055424" id="prodSalePrice100055424" value="1000" />
+                                    <!-- 할인금액 (즉시할인금액)-->
+                                    <input type="hidden" name="prodDirectDiscount100055424" id="prodDirectDiscount100055424" value="" />
+                                    <!-- 할인금액 (상품기본할인금액)-->
+                                    <input type="hidden" name="prodCpnBasicDiscount100055424" id="prodCpnBasicDiscount100055424" value="0" />
+                                    <!-- 할인금액 (상품추가할인금액)-->
+                                    <input type="hidden" name="prodCpnAddDiscount100055424" id="prodCpnAddDiscount100055424" value="0" />
+                                    <!-- 할인적용금액 (상품금액 - 할인금액)-->
+                                    <input type="hidden" name="prodDiscountApplyPrice100055424" id="prodDiscountApplyPrice100055424" value="1000" />
+                                    <!-- 즉시할인번호 -->
+                                    <input type="hidden" name="prodDiscountNo" id="prodDiscountNo100055424" value="" />
+
+
+
+                                    <div class="option_price">
+                                        <span class="price">1,000</span><span class="won">원</span>
+                                        
+                                            <div class="option_qty">1개</div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 일반상품(텍스트상품)-->
+                            
+                                
+                            
+                            <!-- 옵션상품(텍스트상품)-->
+                            
+
+                        </td><td>
+                            <span class="price">1,000</span><span class="won">원</span>
+                        </td>
+                        <td>
+                            <span class="disc">(-)</span><span id="prodDiscountPrice100055424" class="price">0</span><span class="won">원</span>
+                        </td>
+                        <td class="td_discount">
+                            <span id="applyProdPrice100055424" class="price">1,000</span><span class="won">원</span>
+                        </td>
+                        <!-- 배송비 노출 시작
+                            1. 배송유형(bundldKind) :  (상품별 : PRD, 묶음배송 : BND)
+                            2. 배송종류(shipType) :  (COND:조건부 FIXED:유료 FREE:무료)
+                            3. 배송비(shipFee) : 배송비용
+                            4.
+                        -->
+                        
+                            <input type="hidden" name="ordShipPolicyNo" id="ordShipPolicyNo100055424572" data-shipprodno="100055424" data-shippolicyno="572" data-shipsaleprice="1000" value="572" />
+                            <input type="hidden" name="ordShipFee" id="ordShipFee100055424572" value="0" />
+                            <input type="hidden" name="ordShipType" id="ordShipType100055424572" value="FREE" />
+                            <input type="hidden" name="ordFreeCondition" id="ordFreeCondition100055424572" value="0" />
+                            <input type="hidden" name="ordBundleKind" id="ordBundleKind100055424572" value="PRD" />
+                            <!-- 배송비할인금액-->
+                            <input type="hidden" name="prodCpnShipDiscount100055424572" id="prodCpnShipDiscount100055424572" value="0" />
+                            <input type="hidden" name="prepaymentYn" id="prepaymentYn100055424" value="Y" />
+                            <td id="ship100055424572" class="td_delivery" rowspan="1">
+                                <!-- 선불일경우 -->
+                                
+                                    
+
+                                    <!--유료 배송-->
+                                    
+                                    <!--무료 배송-->
+                                    
+                                        <span class="deli_after" id="shipFeeAfter100055424">무료</span>
+                                    
+                                
+                            </td>
+                        
+                        <!-- 배송비 노출 종료-->
+                    </tr>
+                
+                <!-- 장바구니 상품 노출 종료 -->
+
+            
+            </tbody>
+        </table>
+        <div class="prd_modify">
+            상품/옵션 변경 및 수량 조절은 장바구니 또는 상품 상세페이지에서 가능합니다.
+            <a href="/cart/cartList" class="btn_sys sml_b">
+                <span>상품 수정하기</span>
+            </a>
+        </div>
+    </div>
+    <!-- //컨텐츠 영역 -->
+
+                            <!-- //주문상품 정보-->
+                            <div class="order_pay_wrap">
+                                <!-- 결제 정보, 결제 금액 -->
+                                <!-- 결제정보 시작-->
+                                
+<input type="hidden" name="cartCpnGubun" id="cartCpnGubun" value="none" />        
+<input type="hidden" name="cartApplyProdNo" id="cartApplyProdNo" value="" />         
+<input type="hidden" name="cartApplyProdRate" id="cartApplyProdRate" value="" />         
+<input type="hidden" name="cartIssueNo" id="cartIssueNo" value="0" />         
+<input type="hidden" name="cartCouponNo" id="cartCouponNo" value="0" />        
+<input type="hidden" name="cartApplyPrice" id="cartApplyPrice" value="0" />      
+<input type="hidden" name="cartDiscountNo" id="cartDiscountNo" value="0" />      
+<input type="hidden" name="cartDiscountType" id="cartDiscountType" value="" />      
+
+<input type="hidden" name="isPoint" id="isPoint" value="1" />      
+<input type="hidden" name="isInstallment" id="isInstallment" value="1" />      
+<input type="hidden" name="isFreeInterest" id="isFreeInterest" value="1" />     
+<input type="hidden" name="smcCertToken" id="smcCertToken" value="" />
+<input type="hidden" name="recentlyMethod" id="recentlyMethod" value="W011" />
+<input type="hidden" name="recentlyParentMethodCd" id="recentlyParentMethodCd" value="VBANK" />
+<input type="hidden" id="isMobile" value="" />
+<input type="hidden" id="isPointCert" value="N" />
+<input type="hidden" id="ownPointAmount" value="0" />
+<input type="hidden" id="ownPointOrgAmount" value="1030198331" />
+<input type="hidden" value="0" id="couponDiscountPriceOrg" />
+<input type="hidden" id="orderCpnCnt" value="0" />
+
+<input type="hidden" id="totProdPrice" value="1000" />
+<input type="hidden" id="totShipPrice" value="0" />
+<input type="hidden" id="sumDeliveryDiscountPrice" value="" />
+<input type="hidden" id="totAmount" name="totAmount" value="1000" />
+<input type="hidden" id="lastTotPrice" name="lastTotPrice" value="1000" />
+
+<input type="hidden" name="showRefundAccount" id="showRefundAccount" value="false" />      
+<input type="hidden" name="isBankRefund" id="isBankRefund" value="N" />      
+<input type="hidden" name="orgRefundBank" id="orgRefundBank" value="" />      
+<input type="hidden" name="orgRefundBankAccount" id="orgRefundBankAccount" value="" />      
+<input type="hidden" name="kakaoPayDisplay" id="kakaoPayDisplay" value="" />      
+
+<input type="hidden" name="pointCertificationSmsSuccessToken" id="pointCertificationSmsSuccessToken" value="" />
+<input type="hidden" name="pointCertificationSmsCertCode" id="pointCertificationSmsCertCode" value="" />
+<input type="hidden" name="pointCertificationMobile" id="pointCertificationMobile" value="" />
+<input type="hidden" name="pointCertificationPointCertType" id="pointCertificationPointCertType" value="" /><!--1: 핸드폰 , 2: 비밀번호인증-->
+<input type="hidden" name="pointCertificationPassword" id="pointCertificationPassword" value="" />
+<input type="hidden" name="pointCertificationSalt" id="pointCertificationSalt" value="" />
+
+<input type="hidden" name="memberCashReceiptUsage" id="memberCashReceiptUsage" value="" />
+<input type="hidden" name="memberCashReceiptType" id="memberCashReceiptType" value="" />
+<input type="hidden" name="memberCashReceiptNo" id="memberCashReceiptNo" value="" />
+
+<div class="order_pay_info" id="orderPayInfo">
+    <h4 class="tit payment_info">결제 정보</h4>
+    <table class="table_info type1">
+        <caption>결제 정보</caption>
+        <tbody>
+
+        
+        
+            <tr class="coupon_discount">
+                <th scope="row">할인쿠폰</th>
+                <td>
+                    <!-- 할인쿠폰 있는 경우 -->
+                    <div class="input_area">
+                        <input type="text" class="inpt_default disabled" disabled="" value="0" id="couponDiscountPrice" />
+
+                        <strong class="input_txt">원</strong>
+                        <a onclick="javascript:common.orderCouponPop(); return false;" class="btn_sys mid_d" target="_blank">
+                            <span>쿠폰적용</span>
+                        </a>
+
+
+                    </div>
+                    <!-- //할인쿠폰 있는 경우 -->
+                </td>
+            </tr>
+        
+
+        
+        
+        
+            <tr id="couponCartNotExist" class="coupon_cart">
+                <th scope="row">장바구니 할인</th>
+                <td>
+                    <p class="no_benefit">
+                        적용 가능한 할인 혜택 없습니다.
+                    </p>
+                </td>
+            </tr>
+
+            <!-- //장바구니 쿠폰 없는 경우 -->
+            
+            <tr id="couponCartExist" class="coupon_cart" style="display: none">
+                <th scope="row">장바구니 할인</th>
+                <td>
+                    
+                    
+                    <div class="input_area">
+                        <input type="radio" class="blind" name="cartDirect" id="cartDirect0" data-gubun="none" checked="true" />
+                        <label class="chk_radio on" for="cartDirect0">
+                            <span class="ico"></span>사용안함
+                        </label>
+                    </div>
+                </td>
+            </tr>
+        
+        
+        
+
+        
+        
+            <!-- 포인트 사용 -->
+            <tr class="use_point" id="displayPoint">
+
+                <th scope="row">포인트 사용</th>
+
+                <td>
+                    <div id="nonPoint" style="display: none">
+                        <p class="no_benefit">
+                            보유한 포인트가 없습니다.
+                        </p>
+                    </div>
+                    <div id="pointDiv" style="">
+                        <div class="input_area point_input">
+                            <input type="text" class="inpt_default" value="0" id="usePointPrice" onkeyup="orderUtil.setNumberAndComma(this)" />
+                            <strong class="input_txt">P</strong>
+                            <a href="javascript:void(0)" onclick="orderPointCommon.checkPointValidation();" class="btn_sys mid_d">
+                                <span>사용하기</span>
+                            </a>
+                            <input type="checkbox" class="blind" id="pointCheckBox" />
+                            <label class="chk_box" for="pointCheckBox" id="allPointUse">
+                                <span class="ico"></span>모두사용 <span class="own_pay">(보유포인트 : <strong id="ownPointStr">1,030,198,331P</strong>)</span>
+
+                            </label>
+                        </div>
+                        <!-- 포인트 사용 시 휴대폰 인증 안내 문구 -->
+                        <p class="fc_red" id="notCert" style="display: none">안전한 포인트 사용을 위해 휴대폰 인증을 실시합니다.</p>
+                        <!-- 휴대폰 인증 완료 문구 -->
+                        <p class="fc_red" id="completCertPhon" style="display: none">휴대폰 인증이 완료되었습니다.</p>
+                        <!-- 비밀번호 인증 완료 문구 -->
+                        <p class="fc_red" id="completCertPw" style="display: none">비밀번호 인증이 완료되었습니다.</p>
+                        <!-- 포인트 휴대폰 인증번호 발송 -->
+
+                        <div class="point_certify" id="certifyTypePhone" style="display:none">
+                            <div class="send_certify" id="certifyTypePhone1">
+                                <strong>이승재</strong>님의 휴대폰 번호는 <strong class="fc_red" id="sendMobileNo">--</strong> 입니다.
+                                <a href="#none" onclick="orderPointCommon.sendPointNum()" class="btn_sys sml_m">
+                                    <span>인증번호 발송</span>
+                                </a>
+                            </div>
+                            <ul class="list_type" id="certifyTypePhone2">
+                                <li>휴대폰 번호가 변경되셨다면 <a href="javascript:void(0)" id="modifyUserInfo" class="btn_link">회원정보수정</a>에서 휴대폰 번호 수정 후 인증 진행해 주세요.</li>
+                            </ul>
+                        </div>
+                        <!-- //포인트 휴대폰 인증번호 발송 -->
+
+                        <!-- 포인트 휴대폰 인증번호 입력 -->
+                        <div class="input_area" id="certifyNumInput" style="display:none">
+                            <label for="inputTest" class="lbl_type">인증번호 입력</label>
+                            <input type="text" id="certNumber" class="inpt_default phone_certify" maxlength="6" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                            <a href="#none" onclick="orderPointCommon.certPointPhoneNumber()" class="btn_sys mid_d">
+                                <span>인증하기</span>
+                            </a>
+                            <a href="#none" onclick="orderPointCommon.sendPointNum()" class="btn_sys mid_d">
+                                <span>재발송</span>
+                            </a>
+                        </div>
+                        <p id="certifyNumTime" style="display:none" class="order_info fc_red"></p>
+                        <!-- //포인트 휴대폰 인증번호 입력 -->
+
+                        <!-- 포인트 비밀번호 인증 -->
+                        <div class="input_area point_pw" id="certifyTypePass" style="display:none">
+                            <label for="inputTest" class="lbl_type">비밀번호 입력</label>
+                            <input type="password" class="inpt_default" id="pointPassType" />
+                            <a href="javascript:void(0)" onclick="orderPointCommon.certPointPassword()" class="btn_sys mid_d">
+                                <span>확인</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- //포인트 비밀번호 인증 -->
+                </td>
+            </tr>
+            <!-- //포인트 사용 -->
+        
+        
+
+        <!-- 결제수단 -->
+        <tr class="pay_way" id="pgPayMent">
+            <th scope="row">결제수단</th>
+            <td>
+                <!-- 탭 영역 -->
+                <div class="tab_wrap">
+                    <!-- 탭 버튼 영역 -->
+                    <ul class="btn_tab" id="paymentTab">
+                        <!-- 선택되었을 때 클래스 on -->
+                        <li id="CARD" class="">
+                            <a href="#none">
+                                <span class="left_rnd"></span>
+                                <em>신용카드</em>
+                                <span class="right_rnd"></span>
+                            </a>
+                        </li>
+
+                        <li id="KAKAO" class="none" style="display:none">
+                            <a href="#none" class="tit_kakao">
+                                <span class="left_rnd"></span>
+                                <em>kakaopay</em>
+                                <span class="right_rnd"></span>
+                            </a>
+                        </li>
+
+                        <li id="VBANK" class="on">
+                            <a href="#none">
+                                <span class="left_rnd"></span>
+                                <em>무통장입금</em>
+                                <span class="right_rnd"></span>
+                            </a>
+                        </li>
+
+
+                        <li id="RBANK">
+                            <a href="#none">
+                                <span class="left_rnd"></span>
+                                <em>실시간계좌이체</em>
+                                <span class="right_rnd"></span>
+                            </a>
+                        </li>
+
+
+                        <li id="PHONE">
+                            <a href="#none">
+                                <span class="left_rnd"></span>
+                                <em>휴대폰결제</em>
+                                <span class="right_rnd"></span>
+                            </a>
+                        </li>
+
+                        <li id="EASY">
+                            <a href="#none">
+                                <span class="left_rnd"></span>
+                                <em>간편결제</em>
+                                <span class="right_rnd"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <!-- //탭 버튼 영역 -->
+                    <!-- 탭 내용 영역 -->
+                    <div class="tab_con_wrap">
+                        <!-- 신용카드 -->
+                        <!-- 선택되었을 때 클래스 on -->
+                        <div class="tab_con01">
+                            <div class="list_box">
+                                <ul class="list_type dark_bul pay_con">
+                                    <li>
+                                        <span class="pay_info_tit">카드종류</span>
+                                        <div class="pay_info_con">
+                                            <div id="divCardSelectList" class="selbox_comm v2">
+                                                <a id="onSelectCard" class="btn_option ico">선택하세요</a>
+                                                <ul id="cardSelect" class="list_option">
+                                                    
+                                                        <li><a data-value="W170">현대카드 SUPER</a></li>
+                                                    
+                                                        <li><a data-value="W130">신한카드</a></li>
+                                                    
+                                                        <li><a data-value="W040">BC카드</a></li>
+                                                    
+                                                        <li><a data-value="W010">KB국민카드</a></li>
+                                                    
+                                                        <li><a data-value="W160">삼성카드</a></li>
+                                                    
+                                                        <li><a data-value="W190">롯데카드</a></li>
+                                                    
+                                                        <li><a data-value="W050">하나카드</a></li>
+                                                    
+                                                        <li><a data-value="W021">외환카드</a></li>
+                                                    
+                                                        <li><a data-value="W200">NH채움카드</a></li>
+                                                    
+                                                        <li><a data-value="W090">씨티카드</a></li>
+                                                    
+                                                        <li><a data-value="W060">우리카드</a></li>
+                                                    
+                                                        <li><a data-value="W210">카카오뱅크</a></li>
+                                                    
+                                                        <li><a data-value="W150">광주카드</a></li>
+                                                    
+                                                        <li><a data-value="W070">수협카드</a></li>
+                                                    
+                                                        <li><a data-value="W180">신협카드</a></li>
+                                                    
+                                                        <li><a data-value="W100">우체국카드</a></li>
+                                                    
+                                                        <li><a data-value="W120">저축은행</a></li>
+                                                    
+                                                        <li><a data-value="W080">전북카드</a></li>
+                                                    
+                                                        <li><a data-value="W140">제주카드</a></li>
+                                                    
+                                                        <li><a data-value="W030">KDB산업카드</a></li>
+                                                    
+                                                        <li><a data-value="W110">MG새마을카드</a></li>
+                                                    
+                                                        <li><a data-value="W920">해외JCB카드</a></li>
+                                                    
+                                                        <li><a data-value="W930">해외비자카드</a></li>
+                                                    
+                                                        <li><a data-value="W940">해외마스터카드</a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="pay_info_tit">할부개월</span>
+                                        <div class="pay_info_con">
+                                            <div id="divInstallmentList" class="disabled selbox_comm v2">
+                                                <a id="installment" class="btn_option ico" data-value="0">카드를 선택하세요.</a>
+                                                <ul id="installmentList" class="list_option">
+                                                </ul>
+                                            </div>
+                                            <!-- UXUI-594 20170627 툴팁 추가 -->
+                                            
+                                            <div class="tooltip_btn">
+                                                <a href="#none" id="freeInterestBtn" class="btn_sys sml_b">
+                                                    <span>무이자 할부 안내</span>
+                                                </a>
+                                                <div class="txt_tooltip">
+                                                    <em class="tip_tit">무이자 할부 안내</em>
+                                                    <div class="wrap_cont">
+                                                        <div class="tbl_box">
+                                                            <div class="scr_box">
+                                                                <table id="freeInterestTable" class="table_info" summary="카드 무이자 할부혜택받기의 목록표시입니다.">
+                                                                    <caption>카드 무이자 할부혜택받기의 카드사, 할부혜택등의 구분으로 되어있는 목록입니다.</caption>
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th><div>카드사</div></th>
+                                                                        <th><div>할부 혜택</div></th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card_box">
+                                                            <ul class="list_type">
+                                                                <li>법인(기업) / 개인 사업자 / 체크 / 선불 / 기프트 / <br />은행계열카드 (BC마크가 없는 NON BC카드 불가) 제외</li>
+                                                                <li>신한BC / 국민BC / 씨티BC 카드는 BC카드 행사로 적용됨</li>
+                                                                <li>순금 / 상품권등 일부 상품 무이자 적용 제외</li>
+                                                                <li>간편결제 무이자할부는 각 간편결제 기준으로 적용됨</li>
+                                                                <li>자세한 안내사항은 이달의 신용카드 혜택을 확인해 주세요.</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#none" class="ico close">툴팁 닫기</a>
+                                                    <span class="ico_comm ico_arr"></span>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="pay_disc" id="paymentNoti" style="display: none">
+                                    <ul class="list_type"><li>해당 카드사 쿠폰이 적용된 상태입니다.<br />다른 결제수단으로 선택을 원하시면, 해당 쿠폰 적용을 취소해 주세요.</li> </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- //신용카드 -->
+                        <!-- 20180402 추가 카카오페이 -->
+                        <div class="tab_con02">
+                            <div class="list_box">
+
+                                <div class="pay_disc">
+                                    <ul class="list_type">
+                                        <li>카카오페이는 카카오톡 내에서 본인명의 신용카드 등록 후 비밀번호만으로 결제할 수 있는 간편 결제 서비스입니다. </li>
+                                        <li>지원카드 : 모든 신용/체크카드 (단, 법인(공용) 카드의 경우 결제가 불가합니다.)</li>
+                                        <li>무이자할부는 카카오페이 기준으로 적용됩니다. </li>
+                                        <li>카카오페이 고객센터 : 1644-7405</li>
+                                        <!-- 20180404 문구추가 -->
+                                        <li id="paymentKakaoNoti" style="display: none">해당 결제수단 전용 쿠폰이 적용된 상태입니다.<br />다른 결제수단으로 선택을 원하시면, 해당 쿠폰 적용을 취소해주세요.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //20180402 추가 카카오페이 -->
+                        <!-- 무통장입금 -->
+                        <div class="tab_con03 on">
+                            <div class="list_box">
+                                <ul class="list_type dark_bul pay_con">
+                                    <li>
+                                        <span class="pay_info_tit">입금은행</span>
+                                        <div class="pay_info_con">
+                                            <div id="divVbankSelectList" class="selbox_comm v2">
+                                                <a id="onSelectVbank" class="btn_option ico">농협중앙회</a>
+                                                <ul id="vBankSelect" class="list_option">
+                                                    
+                                                        <li><a data-value="W003">기업은행</a></li>
+                                                    
+                                                        <li><a data-value="W005">외환은행</a></li>
+                                                    
+                                                        <li><a data-value="W004">국민은행</a></li>
+                                                    
+                                                        <li><a data-value="W020">우리은행</a></li>
+                                                    
+                                                        <li><a data-value="W011">농협중앙회</a></li>
+                                                    
+                                                        <li><a data-value="W088">신한은행</a></li>
+                                                    
+                                                        <li><a data-value="W023">SC제일은행</a></li>
+                                                    
+                                                        <li><a data-value="W027">씨티은행</a></li>
+                                                    
+                                                        <li><a data-value="W031">대구은행</a></li>
+                                                    
+                                                        <li><a data-value="W032">부산은행</a></li>
+                                                    
+                                                        <li><a data-value="W034">광주은행</a></li>
+                                                    
+                                                        <li><a data-value="W037">전북은행</a></li>
+                                                    
+                                                        <li><a data-value="W039">경남은행</a></li>
+                                                    
+                                                        <li><a data-value="W071">우체국</a></li>
+                                                    
+                                                        <li><a data-value="W081">KEB 하나은행</a></li>
+                                                    
+                                                        <li><a data-value="W048">신협</a></li>
+                                                    
+                                                        <li><a data-value="W045">새마을금고</a></li>
+                                                    
+                                                        <li><a data-value="W035">제주은행</a></li>
+                                                    
+                                                        <li><a data-value="W007">수협중앙회</a></li>
+                                                    
+                                                        <li><a data-value="W002">산업은행</a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="pay_info_tit">입금기한</span>
+                                        <div class="pay_info_con">
+                                            <strong class="deposit_date" id="expiredDt">2019. 03. 01. 23:59 까지</strong>
+                                            <div class="tooltip">
+                                                <div class="i_over">
+                                                    <a href="javascript:void(0)" class="btn_sys sml_b">
+                                                        <span>무통장입금 이용안내</span>
+                                                    </a>
+                                                    <div class="layer left">
+                                                        <ul class="list_type">
+                                                            <li>입금 시 주문자 이름과 상관없이 금액만 일치하면 정상 입금처리 됩니다.</li>
+                                                            <li>입금 기한이 지나면 주문은 자동취소 되므로 다시 주문해주세요.</li>
+                                                            <li>자동화 기기에서는 카드를 통해 이체해 주시기 바랍니다.<br />(일부 기기에서는 현금, 통장 이체 제한됨)</li>
+                                                            <li>매진, 판매 종료로 인해 주문취소가 될 수 있으며 취소 시 안내문자가 발송됩니다.<br />(주문취소 시, 입금결제건이 전체 취소됩니다.)</li>
+                                                        </ul>
+                                                        <span class="ico_comm ico_arr"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- //무통장입금 -->
+                        <!-- 실시간계좌이체 -->
+                        <div class="tab_con04">
+                        </div>
+                        <!-- //실시간계좌이체 -->
+                        <!-- 휴대폰결제 -->
+                        <div class="tab_con05">
+                            <div class="list_box">
+                                <ul class="list_type dark_bul pay_con">
+                                    <li>
+                                        <span class="pay_info_tit">이동통신사</span>
+                                        <div id="divPhoneSelectList" class="selbox_comm v2">
+                                            <a id="onSelectPhone" class="btn_option ico">선택하세요.</a>
+                                            <ul id="phoneSelect" class="list_option">
+                                                
+                                                    <li><a data-value="WSKT">SKT</a></li>
+                                                
+                                                    <li><a data-value="WKTF">KT</a></li>
+                                                
+                                                    <li><a data-value="WLGT">LG U+</a></li>
+                                                
+                                                    <li><a data-value="WKCT">KCT</a></li>
+                                                
+                                                    <li><a data-value="WCJH">CJH</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- //휴대폰결제 -->
+                        <!-- 20180402 수정 간편결제 -->
+                        <div class="tab_con06">
+                            <div class="list_box">
+                                <ul class="list_type dark_bul pay_con">
+                                    <li>
+                                        <span class="pay_info_tit">간편결제</span>
+                                        <!-- 비활성화 disabled -->
+                                        <div id="divEasySelectList" class="selbox_comm v2">
+                                            <a id="onSelectEasy" class="btn_option ico">선택하세요.</a>
+                                            <ul id="easySelect" class="list_option">
+                                                
+                                                    <li><a data-value="WSPY">삼성페이</a></li>
+                                                
+                                                    <li><a data-value="WPKO">페이코</a></li>
+                                                
+                                                    <li><a data-value="WPNW">페이나우</a></li>
+                                                
+                                                    <li><a data-value="WKAO">카카오페이</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="pay_disc" id="paymentEasyNoti" style="display: none">
+                                    <ul class="list_type">
+                                        <li>
+                                            해당 결제수단 전용 쿠폰이 적용된 상태입니다.<br />
+                                            다른 결제수단으로 선택을 원하시면, 해당 쿠폰 적용을 취소해 주세요.
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //20180402 수정 간편결제 -->
+                    </div>
+                    <!-- //탭 내용 영역 -->
+                    
+                    <div class="list_box cashbox" id="cashReceiptDisplay" style="">
+                        <ul class="list_type dark_bul pay_con">
+                            <li class="cash_receipt">
+                                <span class="pay_info_tit">현금영수증 <span class="order_info">(배송완료 후, 2일 이내 발급)</span></span>
+                                <!-- 탭 영역(선택이 라디오인 경우) -->
+                                <div class="tab_wrap">
+                                    <!-- 탭 버튼 영역 -->
+                                    <ul class="tab_tit_rdo clear">
+                                        <!-- 선택되었을 때 클래스 on -->
+                                        <li class="on">
+                                            <input type="radio" class="blind" name="cash_receipt" id="receipt1" checked="" />
+                                            <label class="chk_radio rdo_s on" for="receipt1">
+                                                <span class="ico"></span>개인소득공제용
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" class="blind" name="cash_receipt" id="receipt2" />
+                                            <label class="chk_radio rdo_s" for="receipt2">
+                                                <span class="ico"></span>사업자증빙용
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" class="blind" name="cash_receipt" id="receipt3" />
+                                            <label class="chk_radio rdo_s" for="receipt3">
+                                                <span class="ico"></span>신청안함
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <!-- //탭 버튼 영역 -->
+                                    <!-- 탭 내용 역영 -->
+                                    <div class="tab_con_wrap">
+                                        <!-- 개인소득공제용 -->
+                                        <div class="tab_con01 on">
+                                            <div class="selbox_comm v2 receipt_slt">
+                                                <a class="btn_option ico">휴대폰번호</a>
+                                                <ul class="list_option" id="receiptKindCdList">
+                                                    <li><a data-value="reMobile">휴대폰번호</a></li>
+                                                    <li><a data-value="reCard">현금영수증 카드번호</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- 휴대폰 번호 선택 시  -->
+                                            <div class="receipt_input_phone on" id="receiptVbankPhone">
+                                                <div class="selbox_comm v2">
+                                                    <a class="btn_option ico" id="receiptMobile1">010</a>
+                                                    <ul class="list_option">
+                                                        
+                                                        <li><a data-value="010">010</a></li>
+                                                        
+                                                        <li><a data-value="011">011</a></li>
+                                                        
+                                                        <li><a data-value="016">016</a></li>
+                                                        
+                                                        <li><a data-value="017">017</a></li>
+                                                        
+                                                        <li><a data-value="018">018</a></li>
+                                                        
+                                                        <li><a data-value="019">019</a></li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                                <span class="input_txt">-</span>
+                                                <span class="input_area phone1">
+                                                    <input type="text" id="receiptMobile2" class="inpt_default size_s" value="" maxlength="4" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                                                </span>
+                                                <span class="input_txt">-</span>
+                                                <span class="input_area phone2">
+                                                    <input type="text" id="receiptMobile3" class="inpt_default size_s" value="" maxlength="4" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                                                </span>
+                                            </div>
+                                            <!-- //휴대폰 번호 선택 시  -->
+                                            <!-- 현금영수증 카드번호 선택 시 -->
+                                            <div class="receipt_input_cardnum" id="receiptVbankCardNum">
+                                                <span class="input_area">
+                                                    <input type="text" id="receiptCard1" class="inpt_default size_s" value="" maxlength="4" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                                                </span>
+                                                <span class="input_txt">-</span>
+                                                <span class="input_area">
+                                                    <input type="text" id="receiptCard2" class="inpt_default size_s" value="" maxlength="4" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                                                </span>
+                                                <span class="input_txt">-</span>
+                                                <span class="input_area">
+                                                    <input type="text" id="receiptCard3" class="inpt_default size_s" value="" maxlength="4" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                                                </span>
+                                                <span class="input_txt">-</span>
+                                                <span class="input_area">
+                                                    <input type="text" id="receiptCard4" class="inpt_default size_s" value="" maxlength="4" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                                                </span>
+                                            </div>
+                                            <!-- //현금영수증 카드번호 선택 시 -->
+                                        </div>
+                                        <!-- 사업자증빙용 -->
+                                        <div class="tab_con02">
+                                            <span class="input_area">
+                                                <input type="text" id="businessNo1" class="inpt_default size_s" value="" maxlength="3" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                                            </span>
+                                            <span class="input_txt">-</span>
+                                            <span class="input_area">
+                                                <input type="text" id="businessNo2" class="inpt_default size_s" value="" maxlength="2" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                                            </span>
+                                            <span class="input_txt">-</span>
+                                            <span class="input_area">
+                                                <input type="text" id="businessNo3" class="inpt_default size_s" value="" maxlength="5" onpaste="return false;" onkeyup="orderUtil.setNumber(this)" />
+                                            </span>
+                                        </div>
+                                        <!-- 신청안함 -->
+                                        <div class="tab_con03"></div>
+                                    
+                                        <div class="checkbox_area">
+                                            <input type="checkbox" class="blind" id="isMemberCashReceipt" checked="" />
+                                            <label class="chk_box on" for="isMemberCashReceipt">
+                                                <span class="ico"></span>현금영수증 신청 정보를 저장
+                                            </label>
+                                        </div>
+                                    
+                                    </div>
+                                    <!-- //탭 내용 역영 -->
+                                </div>
+                                <!-- //탭 영역 -->
+                            </li>
+                        </ul>
+                        <div class="pay_disc">
+                            <ul class="list_type">
+                                <li>신청안함을 선택하신 경우에도 현금영수증이 자진 발급됩니다.</li>
+                                <li>현금으로 결제한 금액에 대해 우리은행과 채무지급보증 계약을 체결하여 고객님의 안전거래를 보장하고 있습니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+                
+                <!-- //탭 영역 -->
+                
+                
+                <ul id="paymentAdvantage_EASY_WKAO" class="lst_type" data-parentmethodcd="EASY" data-methodcd="WKAO" style="display:none">
+                    <li>ddd</li>
+                    
+                    
+                </ul>
+                
+                
+
+                
+                    <input type="checkbox" class="blind" id="order6" checked="" />
+                    <label class="chk_box on" for="order6" id="isRecently">
+                        <span class="ico"></span>지금 선택하신 결제수단을 다음에도 사용
+                    </label>
+                
+                
+            </td>
+        </tr>
+        <!-- //결제수단 -->
+
+        </tbody>
+    </table>
+</div>
+<!-- //결제 정보 -->
+<!-- 결제 금액 -->
+<div class="order_price_wrap">
+    <h4 class="tit payment_money">결제 금액</h4>
+    <div class="order_price_info">
+        <div class="price_inner">
+            <div class="price_list">
+                <ul>
+                    <li>
+                        <span class="price_title">상품금액</span>
+                        <span class="price_desc">
+                                <strong class="price">1,000</strong>원
+
+                            </span>
+                    </li>
+                    <li>
+                        <span class="price_title">배송비</span>
+                        <span class="price_desc">
+                                <strong class="price">0</strong>원
+
+                            </span>
+                    </li>
+                    
+                        <li>
+                            <span class="price_title">할인금액</span>
+                            <span class="price_desc">
+                                <em class="disc">(-)</em><strong class="price" id="sumDiscountPrice">0</strong>원
+                            </span>
+                            <div class="price_sale">
+                                <dl>
+                                    <dt>할인쿠폰</dt>
+                                    <dd><span class="price" id="sumCouponDiscountPrice">0</span>원</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>장바구니할인</dt>
+                                    <dd><span class="price" id="cartDiscountPrice">0</span>원</dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="price_title">포인트 사용</span>
+                            <span class="price_desc">
+                                <em class="disc">(-)</em><strong class="price" id="pointAmount">0</strong>P
+                            </span>
+                        </li>
+                    
+
+                </ul>
+            </div>
+            <div class="price_total">
+                <dl>
+                    <dt id="testPg">최종 결제금액</dt>
+                    <dd><span class="price" id="lastPrice">1,000</span>원</dd>
+                </dl>
+                <!--<button type="button" class="btns_sys red_big_xxl settlementt" id="btnPaymentSubmit">결제하기</button>-->
+                <a href="javascript:void(0)" class="btns_sys red_big_xxl settlement" id="btnPaymentSubmit"><span>결제하기</span></a>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!-- //결제 금액 -->
+<!-- //결제 정보, 결제금액 -->
+                                <!-- 결제정보 종료-->
+                                <!-- //결제정보 -->
+
+                                <!-- //주문약관-->
+                                <!-- 주문 약관 -->
+<div class="order_terms">
+    <!-- UXUI-888 비회원일 경우 타이틀 노출 -->
+    <!-- <h4 class="tit guest_odr_agr">비회원 구매 약관 및 주문자 동의</h4> -->
+    <h4 class="tit odr_agr">주문자 동의</h4>
+    <div class="term_list">
+        
+        <!-- 주문자 동의 -->
+        <div class="toggle_layer">
+            <div class="tg_tit">
+                <!-- 약관 전체 선택 클래스 all_check -->
+                <input type="checkbox" class="blind all_check" id="order10" />
+                <label class="chk_box" for="order10" id="orderConditions">
+                    <span class="ico"></span>구매 및 결제대행서비스 이용약관 등에 모두 동의합니다.
+                </label>
+                <span class="btn_sys sml_b tg_btn">
+												<span>내용보기</span>
+												<em class="ico"></em>
+											</span><!-- UXUI-888 클래스명 변경 -->
+            </div>
+            <!-- 약관 리스트 -->
+            <ul class="list_type">
+                <li>구매조건 확인 및 결제 진행 동의</li>
+                <li>개인정보 수집 이용 및 제3자 정보 제공 동의</li>
+                <li id="paymentAgency">결제대행서비스 이용약관 동의</li>
+            </ul>
+            <!-- //약관 리스트 -->
+            <!-- 약관 내용 -->
+            <div class="tg_con">
+                <!-- 구매조건 확인 및 결제 진행 동의 -->
+                <div class="term_wrap">
+                    <div class="term_tit">
+                        <input type="checkbox" class="blind" id="order11" />
+                        <label class="chk_box chk_small" for="order11">
+                            <span class="ico"></span>구매조건 확인 및 결제 진행 동의
+                        </label>
+                    </div>
+                    <div class="term_con">
+                        위 상품의 구매조건을 확인하였으며, 구매에 동의합니다.
+                    </div>
+                </div>
+                <!-- //구매조건 확인 및 결제 진행 동의 -->
+                <!-- 개인정보 수집 이용 및 제3자 정보 제공 동의 -->
+                <div class="term_wrap">
+                    <div class="term_tit">
+                        <!-- 약관 별 전체선택 클래스 term_all -->
+                        <input type="checkbox" class="blind term_all" id="order12" />
+                        <label class="chk_box chk_small" for="order12">
+                            <span class="ico"></span>개인정보 수집 이용 및 제3자 정보 제공 동의
+                        </label>
+                    </div>
+                    <div class="term_con">
+                        <!-- 개인정보 수집·이용 약관 -->
+                        <div class="term_col2">
+                            <div class="scr_wrap">
+                                <h5>개인정보 수집·이용</h5>
+                                <p>
+                                    위메프는 고객님께서 구매하신 서비스 및 상품의 원활한 제공을 위해 최소한의 범위 내에서 아래와 같이 개인정보를 수집·이용 합니다. 고객님께서는 정보 제공에 동의하지 않으실 수 있으며 동의하지 않으실 경우, 일부 구매가 제한될 수 있습니다.
+                                </p>
+                                <!-- 조건에 따른 노출부분-->
+                                <p class="table_summary">국내배송상품 업체</p>
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <th>수집이용·목적</th>
+                                        <td>상품 배송 및 서비스 제공을 위한 사용자 정보확인, 주문자 본인확인</td>
+                                    </tr>
+                                    <tr>
+                                        <th>수집항목</th>
+                                        <td>수취인 정보(성명, 휴대전화번호, 주소)<br />주문자 정보(성명, 휴대전화번호, 이메일주소, 생년월일, 아이핀번호, CI, DI)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>보유기간</th>
+                                        <td>5년 (계약 및 청약철회, 대금결제 및 재화 등의 공급)</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <!-- //조건에 따른 노출부분-->
+                               
+
+                            </div>
+                            <input type="checkbox" class="blind" id="order13" />
+                            <label class="chk_box chk_small" for="order13">
+                                <span class="ico"></span>개인정보 수집∙이용에 동의합니다.
+                            </label>
+                        </div>
+                        <!-- //개인정보 수집·이용 약관 -->
+                        <!-- 개인정보 제3자 제공 약관 -->
+                        <div class="term_col2">
+                            <div class="scr_wrap">
+                                <h5>개인정보 제3자 제공</h5>
+
+
+                                
+                                    
+                                        <p class="table_summary">국내배송상품 업체</p>
+                                        <table>
+                                            <tbody>
+                                            <tr>
+                                                <th>제공받는자</th>
+                                                <td>테스트_MD없음</td>
+                                            </tr>
+                                            <tr>
+                                                <th>목적</th>
+                                                <!-- 20180102 약관 강조처리 em추가 -->
+                                                <td><em>판매자와 구매자 간 원활한 거래의 진행(구매자확인, 해피콜 등), 고객상담 및 불만처리, 서비스 제공, 상품과 경품 배송(전송 및 설치등 포함)</em></td>
+                                            </tr>
+                                            <tr>
+                                                <th>정보</th>
+                                                <td>수취인정보(이름, 휴대전화번호, 주소)</td>
+                                            </tr>
+                                            <tr>
+                                                <th>보유 및 이용기간</th>
+                                                <!-- 20180102 약관 강조처리 em추가 -->
+                                                <td><em>서비스 제공 완료 후 3개월</em></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    
+                                    
+                                    
+
+                                
+
+
+                            </div>
+                            <input type="checkbox" class="blind" id="order14" />
+                            <label class="chk_box chk_small" for="order14">
+                                <span class="ico"></span>개인정보 제3자 제공에 동의합니다.
+                            </label>
+                        </div>
+                        <!-- //개인정보 제3자 제공 약관 -->
+                    </div>
+                </div>
+                <!-- //개인정보 수집 이용 및 제3자 정보 제공 동의 -->
+                <!-- 결제대행서비스 이용약관 동의 UXUI-612 20171204 추가 -->
+                <div class="term_wrap" id="paymentConditions">
+                    <div class="term_tit">
+                        <!-- 약관 별 전체선택 클래스 term_all -->
+                        <input type="checkbox" class="blind term_all" id="order15" />
+                        <label class="chk_box chk_small" for="order15">
+                            <span class="ico"></span>결제대행서비스 이용약관 동의
+                        </label>
+                    </div>
+                    <div class="term_con">
+                        ㈜위메프는 아래 4사의 전자지급결제대행 서비스 및 결제대금예치 서비스를 사용합니다.
+
+                        <ul class="order_agree_link_wrap">
+                            <li id="inicisConditions">
+                                <strong class="title">주식회사 케이지이니시스</strong>
+                                <a onclick="javascript:void(0)" class="link">약관 및 동의내용 보기</a>
+                            </li>
+                            <li id="lguConditions">
+                                <strong class="title">주식회사 LG 유플러스</strong>
+                                <a onclick="javascript:void(0)" class="link">약관 및 동의내용 보기</a>
+                            </li>
+                            <li id="kcpConditions">
+                                <strong class="title">한국 사이버 결제 주식회사</strong>
+                                <a onclick="javascript:void(0)" class="link">약관 및 동의내용 보기</a>
+                            </li>
+                            <li id="kiccConditions">
+                                <strong class="title">한국정보통신 주식회사</strong>
+                                <a onclick="javascript:void(0)" class="link">약관 및 동의내용 보기</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- //결제대행서비스 이용약관 동의 -->
+            </div>
+            <!-- //약관 내용 -->
+        </div>
+        <!-- //주문자 동의 -->
+    </div>
+</div>
+<!-- //주문 약관 -->
+                                <!-- //주문약관 종료-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //컨텐츠 영역 -->
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Footer 영역 -->
+    <div id="_footer" class="footer_wrap">
+<div class="footer_menu">
+  <h2 class="blind">관련사이트</h2>
+  <ul class="footer_menu_inner">
+    <li class="foot_etc company">
+      <a href="http://company.wemakeprice.com/wmp" target="_blank">기업소개</a>
+    </li>
+    <li class="foot_etc foot_blog">
+      <a href="https://blog.naver.com/wemakepriceblog" target="_blank">기업블로그</a>
+    </li>
+    <li class="foot_etc employ">
+      <a href="https://recruit.wemakeprice.com/notice/list" target="_blank">인재채용</a>
+    </li>
+    <li class="foot_etc stipulation">
+      <a href="//front-qa.wemakeprice.com/cs/policies/terms">이용약관</a>
+    </li>
+    <li class="foot_etc location_stipulation">
+      <a href="//front-qa.wemakeprice.com/cs/policies/location" target="_blank">위치기반서비스 이용약관</a>
+    </li>
+    <li class="foot_etc private">
+      <a href="//front-qa.wemakeprice.com/cs/policies/privacy">개인정보처리방침</a>
+    </li>
+    <li class="foot_etc youth_protect">
+      <a href="//front-qa.wemakeprice.com/cs/policies/youth">청소년보호정책</a>
+    </li>
+    <li class="foot_etc partnership">
+      <a href="http://test.wemakeprice.com/guide_book/contact_info">제휴문의</a>
+    </li>
+    <li class="foot_etc customer">
+      <a href="http://promotion-stg.wemakeprice.com:8080/promotion/wonder_0">고객서비스</a>
+    </li>
+  </ul>
+</div>
+<div class="footer_company">
+  <h2 class="blind">회사정보</h2>
+  <div class="footer_company_inner">
+    <h2 class="footer_logo">
+      <a href="http://test.wemakeprice.com">특가대표 위메프</a>
+    </h2>
+    <div class="footer_info">
+      <div class="footer_address">
+        <dl>
+          <dt class="blind">회사명 :</dt>
+          <dd>(주)위메프 (대표이사 : 박은상)</dd>
+          <dt class="lay_ico">주소 :</dt>
+          <dd><address>서울특별시 강남구 영동대로 502 위메프빌딩</address></dd>
+        </dl>
+        <dl>
+          <dt>사업자등록번호 :</dt>
+          <dd>120-87-55227</dd>
+          <dt class="lay_ico">통신판매업신고번호 :</dt>
+          <dd>제 2010 서울 강남 02066호</dd>
+          <dd>
+            <a class="underline" href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1208755227" target="_blank">사업자정보 확인<i class="lay_ico arrow"></i></a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>관광사업등록번호 :</dt>
+          <dd>제2010-000024호</dd>
+        </dl>
+        <p class="copyright">COPYRIGHT@WEMAKEPRICE INC. ALL RIGHTS RESERVED.</p>
+        <dl class="bank_info">
+          <dt>
+            우리은행 채무지급보증 안내
+            <a class="underline" href="javascript:void(0);" onclick="window.open('https://image.wemakeprice.com/images/resources_v2/front/common/footer-security-2018.jpg','mark','scrollbars=no,resizable=no,width=580,height=820');">서비스 가입사실 확인<i class="lay_ico arrow"></i></a>
+          </dt>
+          <dd>
+            당사는 고객님이 현금 결제한 금액에 대해 우리은행과 채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다.
+          </dd>
+          <p class="txt_info">위메프는 주민번호를 수집하지 않습니다.</p>
+        </dl>
+      </div>
+      <div class="footer_guide">
+        <dl>
+          <dt>
+            <span class="lay_tit title_1">고객센터</span>
+            <span class="phone">1588-4763</span>
+            <a class="underline" href="http://test.wemakeprice.com/customer_center/faq" target="_blank">자주 묻는 질문<i class="lay_ico arrow"></i></a>
+          </dt>
+          <dd>평일 9:00 ~ 18:00 </dd>
+          <dd>주말/공휴일 10:00 ~ 17:00</dd>
+        </dl>
+        <dl class="pd_20">
+          <dt>
+            <span class="lay_tit title_2">파트너센터</span>
+            <span class="phone">1644-4796</span>
+          </dt>
+          <dd>평일 9:00 ~ 18:00</dd>
+          <dd>점심 12:00 ~ 13:00</dd>
+          <dd>토요일,일요일/공휴일 휴무</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer_etc">
+  <div class="footer_etc_inner">
+    <div class="footer_brand" id="_footerBrand">
+        <div class="footer_brand_wrap">
+          <ul data-ui="brandContainer">
+            <li>
+              <span class="foot_etc foot_award00">
+                2017.12.30~2020.12.29
+                위메프 온라인서비스 운영
+                정보보호관리체계 인증
+              </span>
+            </li>
+            <li><span class="foot_etc foot_award01">2017 한국유통대상 대통령 표창 수상</span></li>
+            <li><span class="foot_etc foot_award02">2017 대한민국 모바일어워드 우수상</span></li>
+            <li><span class="foot_etc foot_award03">2015 한국서비스 품질지수 2년 연속 수상</span></li>
+            <li><span class="foot_etc foot_award04">2015 한국소비자 만족지수 소셜커머스부문 1위</span></li>
+            <li><span class="foot_etc foot_award05">2015 구매안심지수 소셜커머스부문1위</span></li>
+            <li><span class="foot_etc foot_award06">2015 KOREA 탑 브랜드2년 연속 수상</span></li>
+            <li><span class="foot_etc foot_award07">2014 대한민국 명품 브랜드 대상</span></li>
+            <li><span class="foot_etc foot_award08">2014 한국의 가장 사랑받는 브랜드 대상</span></li>
+            <li><span class="foot_etc foot_award09">모바일 브랜드 대상</span></li>
+            <li><span class="foot_etc foot_award10">2014 KOREA 탑브랜드 대상</span></li>
+            <li><span class="foot_etc foot_award11">2014 고객감동 브랜드 지수 1위</span></li>
+            <li><span class="foot_etc foot_award12">2014 앱 어워드 코리아 베스트 앱</span></li>
+            <li><span class="foot_etc foot_award13">2014 HTHI 2년 연속 수상</span></li>
+          </ul>
+        </div>
+        <a href="javascript:void(0)" class="btn_brand_prev dis" data-ui="brandPrevBtn"><span class="blind">이전보기</span></a>
+        <a href="javascript:void(0)" class="btn_brand_next" data-ui="brandNextBtn"><span class="blind">다음보기</span></a>
+    </div>
+    <ul class="footer_association">
+      <li><a class="foot_etc foot_link1" href="http://www.koipa.re.kr" target="_blank">한국지식재산보호원</a></li>
+      <li><a class="foot_etc foot_link2" href="http://www.kolsa.or.kr" target="_blank">한국온라인쇼핑협회 정회원사</a></li>
+      <li><span class="foot_etc foot_link3">위해상품차단시스템 운영매장</span></li>
+    </ul>
+  </div>
+</div>
+
+</div>
+<script src="//s-qa.wemep.co.kr/front/latest/dist/pc/layout/layout-footer.bundle.js?ver=20190227151618"></script>
+<script>footer.embed();</script>
+    <!-- //Footer 영역 -->
+</div>
+
+<!-- PG 결제 모듈 영역 -->
+<!--<div id="payPopupLayer" style='position:absolute; top: 1px;  width:100%; z-index:100;'></div>-->
+<div id="payPopupLayer" style="display:none;"></div>
+
+<div id="xpopup" style="display:none;"></div>
+
+<form id="orderRequestForm" name="orderRequestForm" method="post">
+    <!--결제 Main -->
+    <input type="hidden" name="paymentSeed.pgAmount" value="0" />
+    <input type="hidden" name="paymentSeed.pointAmount" value="0" />
+
+    <!--결제 수단별 정보-->
+    <input type="hidden" name="payment.parentMethodCd" value="" /> <!--결제 수단-->
+    <input type="hidden" name="payment.methodCd" value="" /><!--상세결제수단코드-->
+    <input type="hidden" name="payment.pgKind" value="" /><!--PG사-->
+    <input type="hidden" name="payment.pgMid" value="" /><!--PG 상점아아디-->
+    <!--/** CARD */-->
+    <input type="hidden" name="payment.cardNo" value="" /><!--카드 번호-->
+    <input type="hidden" name="payment.cardQuota" value="" /><!--카드할부기간-->
+    <input type="hidden" name="payment.cardInterestYn" value="" /><!--카드이자여부-->
+    <!--/** 현금 영수증 */-->
+    <input type="hidden" name="payment.cashReceiptNo" value="" /><!--현금영수증요청번호-->
+    <input type="hidden" name="payment.cashReceiptUsage" value="" /><!--영수증 용도 ( RP:개인소득공제용 / RS:사업자증빙용/ RN: 신청안함)-->
+    <input type="hidden" name="payment.cashReceiptType" value="" /><!--현금영수증 요청타입 (M: 휴대폰번호/ C: 현금영수증 카드번호/ P:주민등록번호/ V: 사업자번호)")-->
+    <!--/** 모바일 */-->
+    <input type="hidden" name="payment.mobileCorp" value="" /><!--모바일 이통사-->
+    <input type="hidden" name="payment.mobileNo" value="" /><!--휴대폰번호-->
+
+    <!--결제 무통장 정보-->
+    <input type="hidden" name="paymentAccount.receivedPrice" value="" />      <!--무통장 입금금액-->
+    <input type="hidden" name="paymentAccount.remitterNm" value="" />
+    <input type="hidden" name="paymentAccount.accountNo" value="" />
+    <input type="hidden" name="paymentAccount.receivedBankCd" value="" />     <!--입금은행-->
+    <input type="hidden" name="paymentAccount.cashReceiptKind" value="" />    <!--현금영수증 종류-->
+    <input type="hidden" name="paymentAccount.cashReceiptNo" value="" />      <!--현금영수증 번호-->
+
+    <!--구매 정보-->
+    <input type="hidden" name="purchase.totProdPrice" value="0" />
+    <input type="hidden" name="purchase.totShipPrice" value="0" />
+    <input type="hidden" name="purchase.totProdDiscount" value="0" />
+    <input type="hidden" name="purchase.totShipDiscount" value="0" />
+    <input type="hidden" name="purchase.cartDiscountPrice" value="0" />
+    <input type="hidden" name="purchase.totPaymentPrice" value="0" />
+    <input type="hidden" name="purchase.pgPaymentPrice" value="0" />
+    <input type="hidden" name="purchase.pointPaymentPrice" value="0" />
+    <input type="hidden" name="purchase.nonmemberOrderYn" value="N" />
+    <input type="hidden" name="purchase.senderNm" value="" />
+    <input type="hidden" name="purchase.buyerEmail" value="" />
+    <input type="hidden" name="purchase.buyerPhone" value="" />
+
+    <!--비회원 정보-->
+    <input type="hidden" name="joinNonuserParam.userStatus" value="N" />                  <!--비회원 여부 Y : N-->
+    <input type="hidden" name="joinNonuserParam.userName" value="" />                     <!--비회원 이름-->
+    <input type="hidden" name="joinNonuserParam.isRealName" value="" />                   <!--본인인증 여부-->
+    <input type="hidden" name="joinNonuserParam.realNameCertificateType" value="0" />     <!--비회원 본인인증 종류(2:아이핀인증, 3:핸드폰인증-->
+    <input type="hidden" name="joinNonuserParam.mobile" value="" />                       <!--비회원 휴대폰번호-->
+    <input type="hidden" name="joinNonuserParam.email" value="" />                        <!--비회원 이메일-->
+    <input type="hidden" name="joinNonuserParam.birth" value="" />                        <!--비회원 생년월일-->
+
+    <!--배송지 정보-->
+    <input type="hidden" name="shippingAddress.receiverName" value="" />
+    <input type="hidden" name="shippingAddress.zipcode" value="" />
+    <input type="hidden" name="shippingAddress.addr1" value="" />
+    <input type="hidden" name="shippingAddress.addr2" value="" />
+    <input type="hidden" name="shippingAddress.roadAddr1" value="" />
+    <input type="hidden" name="shippingAddress.roadAddr2" value="" />
+    <input type="hidden" name="shippingAddress.phone" value="" />
+    <input type="hidden" name="shippingAddress.senderNm" value="" />
+    <input type="hidden" name="shippingAddress.message" value="" />
+    <input type="hidden" name="shippingAddress.messageCd" value="" />
+    <input type="hidden" name="shippingAddress.safetyNoUseYn" value="" />
+    <input type="hidden" name="shippingAddress.baseAddrRegYn" value="" />
+
+    <!-- 배송정보 -->
+    <input type="hidden" name="shipping.partnerId" value="0" />
+
+    
+        
+            
+                <input type="hidden" name="bundleList[0].shipPolicyNo" value="572" />
+                <input type="hidden" name="bundleList[0].bundleKind" value="PRD" />
+                <input type="hidden" name="bundleList[0].shipMethod" value="KP" />
+                <input type="hidden" name="bundleList[0].shipType" value="FREE" />
+                <input type="hidden" name="bundleList[0].shipFee" value="0" />
+                <input type="hidden" name="bundleList[0].freeCondition" value="0" />
+                <input type="hidden" name="bundleList[0].diffYn" value="N" />
+                <input type="hidden" name="bundleList[0].diffCount" value="0" />
+                <input type="hidden" name="bundleList[0].prepaymentYn" value="Y" />
+            
+            <input type="hidden" name="bundleList[0].orderProdList[0].prodNo" value="100055424" />
+            <input type="hidden" name="bundleList[0].orderProdList[0].prodNm" value="QA이승재 - wapi" />
+            <input type="hidden" name="bundleList[0].orderProdList[0].prodQty" value="1" />
+            <input type="hidden" name="bundleList[0].orderProdList[0].prodPrice" value="1000" />
+            
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].cartNo" value="23418996" />
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].cartSeq" value="30724" />
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].optNo" value="171029" />
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].sopt1Val" value="" />
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].sopt2Val" value="" />
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].topt1Title" value="" />
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].topt2Title" value="" />
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].topt1Val" value="" />
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].topt2Val" value="" />
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].optQty" value="1" />
+                <input type="hidden" name="bundleList[0].orderProdList[0].orderOpt[0].depth" value="0" />
+            
+        
+    
+
+    
+    
+
+    
+    <input type="hidden" class="discountCartProdNo" name="orderDiscountCart.applyProdNo" value="" />
+    <input type="hidden" class="discountCartProdNo" name="orderDiscountCart.applyProdRate" value="" />
+    <input type="hidden" class="discountCartProdNo" name="orderDiscountCart.discountKind" value="none" />
+    <input type="hidden" class="discountCartProdNo" name="orderDiscountCart.discountNo" value="0" />
+    <input type="hidden" class="discountCartProdNo" name="orderDiscountCart.couponNo" value="0" />
+    <input type="hidden" class="discountCartProdNo" name="orderDiscountCart.issueNo" value="0" />
+    <input type="hidden" class="discountCartProdNo" name="orderDiscountCart.discountType" value="" />
+    <input type="hidden" class="discountCartProdNo" name="orderDiscountCart.discountPrice" value="" />
+
+    <input type="hidden" name="pointCertification.smsSuccessToken" value="" />
+    <input type="hidden" name="pointCertification.smsCertCode" value="" />
+    <input type="hidden" name="pointCertification.mobile" value="" />
+    <input type="hidden" name="pointCertification.pointCertType" value="" /><!--1: 핸드폰 , 2: 비밀번호인증-->
+    <input type="hidden" name="pointCertification.password" value="" />
+    <input type="hidden" name="pointCertification.salt" value="" />
+
+    <!--결제수단저장-->
+    <input type="hidden" name="recentlyMemberMethod.parentMethodCd" value="" />
+    <input type="hidden" name="recentlyMemberMethod.methodCd" value="" />
+    <input type="hidden" name="recentlyMemberMethod.recentlyStatus" value="N" />
+
+    <!--PG 전문 생성용 주문자 정보-->
+    <input type="hidden" name="paymentUser.purchaseName" value="" />
+    <input type="hidden" name="paymentUser.purchaseEmail" value="" />
+    <input type="hidden" name="paymentUser.purchasePhone" value="" />
+
+    <!--통관번호-->
+    <input type="hidden" name="personalOverseaNo" value="" />
+
+    <!--본인인증-->
+    <input type="hidden" name="certicate.userName" value="" />
+    <input type="hidden" name="certicate.birthDay" value="" />
+    <input type="hidden" name="certicate.sex" value="" />
+    <input type="hidden" name="certicate.mobile" value="" />
+    <input type="hidden" name="certicate.resultDateTime" value="" />
+    <input type="hidden" name="certicate.age" value="" />
+    <input type="hidden" name="certicate.isAuthenticationResult" value="" />
+    <input type="hidden" name="certicate.authenticationSuccessToken" value="" />
+
+    <!-- 카트 통로 번호 -->
+    <input type="hidden" name="cartPathSeed.cartPathNo" value="32294" />
+
+    <!-- 환불계좌 정보 -->
+    <input type="hidden" name="bankAccountVerifyParam.bankAccount" value="" />
+    <input type="hidden" name="bankAccountVerifyParam.bankCd" value="" />
+    <input type="hidden" name="bankAccountVerifyParam.depositor" value="" />
+    <input type="hidden" name="bankAccountVerifyParam.showRefundAccount" value="" />
+    <input type="hidden" name="bankAccountVerifyParam.isBankRefund" value="" />
+    <input type="hidden" name="bankAccountVerifyParam.bankName" value="" />
+
+    <!-- 사용자 agent/platform 정보 -->
+    <input type="hidden" name="userAgentType" value="PC" />
+
+    <!--현금영수증정보저장-->
+    <input type="hidden" name="memberCashReceipt.cashReceiptStatus" value="N" />
+</form>
+<input type="hidden" name="vPaymentCd" id="vPaymentCd" value="" />
+<input type="hidden" name="vBankPaymentCd" id="vBankPaymentCd" value="W011" />
+<input type="hidden" name="vPhonePaymentCd" id="vPhonePaymentCd" value="" />
+<input type="hidden" name="vEasyPaymentCd" id="vEasyPaymentCd" value="" />
+<input type="hidden" name="vRefundBank" id="vRefundBank" />
+<input type="hidden" name="vRefundBankName" id="vRefundBankName" />
+<input type="hidden" name="vReceiptKindCd" id="vReceiptKindCd" value="reMobile" />
+<input type="hidden" name="vReceiptRbankKindCd" id="vReceiptRbankKindCd" value="reMobile" />
+<input type="hidden" name="vExpiredDt" id="vExpiredDt" value="2019-03-01 23:59:59" />
+<input type="hidden" name="vCardInstallmentTerm" id="vCardInstallmentTerm" value="" />
+<input type="hidden" name="vCardInterestYn" id="vCardInterestYn" />
+<input type="hidden" name="vCardLock" id="vCardLock" value="N" />
+<input type="hidden" name="escrowUrl" id="escrowUrl" value="https://escrow-qa.wemakeprice.com" />
+<input type="hidden" name="productUrl" id="productUrl" value="https://front-qa.wemakeprice.com" />
+<input type="hidden" name="liveProductUrl" id="liveProductUrl" value="http://test.wemakeprice.com" />
+<input type="hidden" name="divPgKind" id="divPgKind" />
+<input type="hidden" name="divPgUrl" id="divPgUrl" />
+<input type="hidden" name="divPgMid" id="divPgMid" />
+<input type="hidden" name="passPg" id="passPg" value="N" />
+
+<!-- 페이지 로딩완료후 실행 -->
+<script type="text/javascript">
+
+    $(function(){
+        //결제금액 상이여부 체크
+        orderCommon.pageBackCheck();
+
+        //page를 초기화 한다
+        orderCommon.pageInit();
+
+        //결제하기 버튼 클릭 시작
+        $("#btnPaymentSubmit").unbind("click").bind("click",function(){
+            // 주문자 동의 항목 미동의
+            if(!orderSubmit.paySubmitData()){
+                return;
+            }
+
+            var pgKind = "";
+            if("" == "") {
+                pgKind = $('#divPgKind').val();
+                $("input[name='payment.pgMid']").val($('#divPgMid').val()); //pg상점 아이디
+            } else {
+                pgKind = "".toUpperCase();
+                if("" == ""){
+                    $("input[name='payment.pgMid']").val(pgKind); //pg상점 아이디
+                }else{
+                    $("input[name='payment.pgMid']").val(""); //pg상점 아이디
+                }
+            }
+
+            if($('#passPg').val() =="Y"){
+                $('#btnPaymentSubmit').hide();
+                $("input[name='payment.parentMethodCd']").val("FREE"); //결제수단
+                $("input[name='payment.methodCd']").val("FREE"); //결제수단
+                pgKind = "NONE";
+            }
+
+            $("input[name='payment.pgKind']").val((pgKind == "nonePg" ? "NONE" : pgKind)); //pg상점 아이디
+
+            paymentForm.createPgFrame();
+        });
+
+    });
+</script>
+<!-- //페이지 로딩완료후 실행 -->
+<script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        deviceCategory: 'PC'
+    });
+</script>
+
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ2HDSX"
+                  height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZ2HDSX');</script>
+<!--// End Google Tag Manager -->
+
+
+</body></html>
